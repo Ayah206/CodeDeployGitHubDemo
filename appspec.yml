@@ -24,7 +24,16 @@ os: linux
 #   may cause associated deployments to fail.
 files:
   - source: /
-    destination: /
+    destination: /usr/cddemo
+    overwrite: true
+permissions:
+  - object: /usr/cddemo/codedeploy
+    pattern: "*.sh"
+    owner: root
+    group: root
+    mode: 755
+    type:
+      - file
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
 #   you can specify a "permissions" 
 #   section here that describes special permissions to apply to the files 
