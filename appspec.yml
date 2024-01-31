@@ -95,10 +95,10 @@ hooks:
       runas: root
 # During the ApplicationStart deployment lifecycle event, run the commands 
 #   in the script specified in "location".
-  # ApplicationStart:
-  #   - location: scripts/start.sh    
-  #     timeout: 300
-  #     runas: root
+  ApplicationStart:
+    - location: scripts/start.sh    
+      timeout: 300
+      runas: root
 # During the ValidateService deployment lifecycle event, run the commands 
 #   in the script specified in "location".
   # ValidateService:
