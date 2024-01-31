@@ -4,4 +4,4 @@ nvm install --lts
 
 npm install
 
-node server.sh
+node server.mjs
