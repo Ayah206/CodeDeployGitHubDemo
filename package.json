@@ -1,0 +1,23 @@
+{
+  "name": "codedeploygithubdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ayah206: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@github.com/Ayah206/CodeDeployGitHubDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayah206/CodeDeployGitHubDemo/issues"
+  },
+  "homepage": "https://github.com/Ayah206/CodeDeployGitHubDemo#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
